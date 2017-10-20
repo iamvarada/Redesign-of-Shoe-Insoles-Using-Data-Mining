@@ -6,9 +6,9 @@ library(scatterplot3d)
 library(Hmisc)
 
 #measures to be used: foot length, ball of foot length, foot breadth, horizontal
-#reading ANSUR men and women data
-Am <- read.csv("C:/Penn State/Fall 2016 - courses/ME 547/ANSUR csv files/ANSURmen.csv")
-Aw <- read.csv("C:/Penn State/Fall 2016 - courses/ME 547/ANSUR csv files/ANSURwomen.csv")
+#reading ANSUR men and women data from local hard drive
+Am <- read.csv("user apt file path here.csv")
+Aw <- read.csv("user apt file path here.csv")
 
 #adding BMI data
 Am$BMI<- (Am$WEIGHT/9.81)/(Am$STATURE/1000)^2
