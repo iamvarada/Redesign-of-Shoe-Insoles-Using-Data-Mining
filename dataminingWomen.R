@@ -1,4 +1,9 @@
-Aw <- read.csv("C:/Penn State/Fall 2016 - courses/ME 547/ANSUR csv files/ANSURwomen.csv")
+# ME 547 individual design project
+# Redesiging shoe insole for men, and women
+# Course Instructor: Dr. Matt Parkinson
+
+
+Aw <- read.csv("use apt file path here.csv")
 Aw$BMI<- (Aw$WEIGHT/9.81)/(Aw$STATURE/1000)^2
 AwR <- subset (Aw, select=c('FOOT_BRTH', 'INSTEP_LNTH','FOOT_LNTH','BMI','STATURE'))
 
