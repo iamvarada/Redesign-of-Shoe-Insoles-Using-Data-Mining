@@ -1,5 +1,6 @@
 #ME 547 Krishna Prasad Varadarajan Srinivasan
 #Individual design project -------- Redesigning insoles
+#Course Instructor: Dr. Matt Parkinson
 
 install.packages("scatterplot3d")
 library(scatterplot3d)
